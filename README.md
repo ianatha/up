@@ -5,11 +5,23 @@ Tiny utility to move up deep folder structures in CLI
 
 Copy https://raw.githubusercontent.com/ianatha/up/master/up.py to a location of your choice.
 
-Add
+## For BASH and ZSH
+
+Add:
 ```
 up () { cd `/Users/jdoe/Downloads/up.py $*` }
 ```
-to your `~/.zshrc` or `~/.bashrc`.
+to your `~/.bashrc` or `~/.zshrc`.
+
+## For FISH
+
+Add
+```
+function up
+    cd (/Users/jdoe/Downloads/up.py $argv)
+end
+```
+to your `~/.fishrc`.
 
 ## Example Usage
 
