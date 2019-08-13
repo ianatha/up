@@ -13,7 +13,7 @@ to your `~/.zshrc` or `~/.bashrc`.
 
 ## Example Usage
 
-```
+```bash
 $ pwd
 /Users/jdoe/Developer/backend/src/main/java/com/example/service/db/
 $ up example
