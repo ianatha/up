@@ -1,5 +1,5 @@
 # up
-Tiny utility to move up-and-down complex folder structures in CLI
+Tiny utility to move up deep folder structures in CLI
 
 ## Manual Installation
 
