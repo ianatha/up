@@ -7,7 +7,7 @@ Copy https://raw.githubusercontent.com/ianatha/up/master/up.py to a location of 
 
 Add
 ```
-up () { cd `/Users/jdoe/Downloads/up.py $1` }
+up () { cd `/Users/jdoe/Downloads/up.py $*` }
 ```
 to your `~/.zshrc` or `~/.bashrc`.
 
