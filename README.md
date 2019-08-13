@@ -14,18 +14,10 @@ to your `~/.zshrc` or `~/.bashrc`.
 ## Example Usage
 
 ```bash
-$ pwd
-/Users/jdoe/Developer/backend/src/main/java/com/example/service/db/
-$ up example
-$ pwd
-/Users/jdoe/Developer/backend/src/main/java/com/example/
-$ up 4
-$ pwd
-/Users/jdoe/Developer/backend/src/
-$ cd -
-$ pwd
-/Users/jdoe/Developer/backend/src/main/java/com/example/
-$ up
+/Users/jdoe/Developer/backend/src/main/java/com/example/service/db$ up example
+/Users/jdoe/Developer/backend/src/main/java/com/example$ up 4
+/Users/jdoe/Developer/backend/src$ cd -
+/Users/jdoe/Developer/backend/src/main/java/com/example$ up
  0. example
  1. com
  2. java
@@ -36,9 +28,7 @@ $ up
  7. jdoe
  8. Users
 ? 4
-$ pwd
-/Users/jdoe/Developer/backend/src/
-$ up ~
-$ pwd
-/Users/jdoe/
+/Users/jdoe/Developer/backend/src$ up ~
+/Users/jdoe$ echo I love up
+I love up
 ```
